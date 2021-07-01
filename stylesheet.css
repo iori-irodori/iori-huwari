@@ -33,6 +33,10 @@ a {
   width: 200px;
 }
 
+img {
+  max-width: 100%;
+}
+
 header {
   height: 65px;
   width: 100%;
@@ -108,15 +112,6 @@ header {
   position: relative;
   top: 7px;
   box-shadow: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
 }
 
 footer {
