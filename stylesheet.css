@@ -13,8 +13,13 @@ a {
 
 .container {
   width: 100%;
+  max-width: 960px;
   padding: 0 15px;
-  margin: 0 auto;
+  margin: auto;
+}
+
+img {
+  max-width:100%;
 }
 
 .top-wrapper {
