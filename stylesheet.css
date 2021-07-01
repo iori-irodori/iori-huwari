@@ -18,6 +18,12 @@ a {
   margin: auto;
 }
 
+.contents {
+  width: 100%;
+  max-width: 960px;
+  padding: 0 15px;
+  margin: auto;
+}
 img {
   max-width:100%;
 }
