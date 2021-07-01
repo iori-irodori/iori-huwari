@@ -10,7 +10,11 @@ body {
 header {
    width: 100%;
    padding: 30px 4% 10px;
+   position: fixed;
+   top: 0;
    background-color: #fff;
+   display: flex;
+   align-items: center;
 }
 h1 {
    margin: 0; padding: 0;
@@ -43,8 +47,6 @@ li {
   max-width: 960px;
   padding: 0 15px;
   margin: 10px;
-}
-.contents {
   text-align: center;
 }
 .contents-item {
