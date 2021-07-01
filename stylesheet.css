@@ -9,13 +9,14 @@ body {
 }
 header {
    width: 100%;
-   padding: 30px 4% 10px;   
+   padding: 30px 4% 10px;
+   background-color: #fff;
 }
 h1 {
    margin: 0; padding: 0;
    font-size: 20px;
 }
-a {	
+a {
    text-decoration: none;
    color: #4b4b4b;
 }
@@ -37,65 +38,26 @@ li {
   padding: 80px 15px;
   margin: auto;
 }
-
 .contents {
   width: 100%;
   max-width: 960px;
   padding: 0 15px;
   margin: 10px;
 }
-
 .contents {
   text-align: center;
 }
-
 .contents-item {
   width: 200px;
 }
-
 img {
   max-width: 100%;
 }
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34,49,52,0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
 .logo {
   width: 124px;
   margin-top: 20px;
 }
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(255,255,255,0.3);
-}
-
-
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
-
