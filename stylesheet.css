@@ -8,13 +8,10 @@ body {
    background-color: #e6e6e6;
 }
 header {
-   padding: 30px 4% 10px;
-   position: fixed;
-   top: 0;
    width: 100%;
-   background-color: #fafad2;
-   display: flex;
-   align-items: center;
+   padding: 30px 4% 10px;
+   top: 0;   
+   background-color: #fff;  
 }
 h1 {
    margin: 0; padding: 0;
