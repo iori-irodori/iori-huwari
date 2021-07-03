@@ -51,6 +51,7 @@ li {
 }
 .contents-item {
   width: 200px;
+  text-align: center;
 }
 img {
   max-width: 100%;
