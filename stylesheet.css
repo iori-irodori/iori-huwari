@@ -51,10 +51,10 @@ li {
 }
 .contents-item {
   width: 200px;
-  text-align: center;
 }
 img {
   max-width: 100%;
+  text-align: center;
 }
 .logo {
   width: 124px;
