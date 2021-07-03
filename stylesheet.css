@@ -48,9 +48,10 @@ li {
   max-width: 960px;
   padding: 0 15px;
   margin: 10px;
+  display: flex;
   text-align: center;
 }
-.contents-item {
+.item {
   display: flex;
   width: 200px;
 }
