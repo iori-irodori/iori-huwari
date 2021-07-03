@@ -50,6 +50,8 @@ li {
   text-align: center;
 }
 .contents-item {
+  display: flex;
+  justify-content: space-beetween;
   width: 200px;
 }
 img {
