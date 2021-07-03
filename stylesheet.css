@@ -41,6 +41,7 @@ li {
   max-width: 960px;
   padding: 80px 15px;
   margin: auto;
+  display: flex;
 }
 .contents {
   width: 100%;
