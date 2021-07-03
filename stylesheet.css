@@ -36,13 +36,6 @@ li {
    margin: 0 0 0 15px;
    font-size: 14px;
 }
-.container {
-  width: 100%;
-  max-width: 960px;
-  padding: 80px 15px;
-  margin: auto;
-  display: flex;
-}
 .contents {
   width: 100%;
   max-width: 960px;
@@ -52,7 +45,6 @@ li {
   }
 .item {
   width: 100%;
-  max-width: 960px;
   padding: 0 15px;
   margin: 30px;
   display: flex;
