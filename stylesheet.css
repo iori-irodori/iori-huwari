@@ -186,6 +186,11 @@ footer p {
   font-size: 12px;
 }
 
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
 .menu-icon {
   color: white;
   float: right;
@@ -260,13 +265,4 @@ footer p {
     height: 1700px;
   }
 
-  .message-wrapper .btn {
-    width: 100%;
-  }
 }
-  .contact-item {
-    margin: 0 10px;
-  }
-  .footer {
-    padding: 20px 0;
-  }
