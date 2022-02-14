@@ -3,7 +3,8 @@
 }
 
 body {
-  
+  background-image: url(top.png);
+  background-size: contain;
 }
 
 a {
