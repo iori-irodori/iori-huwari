@@ -3,8 +3,7 @@
 }
 
 body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+  
 }
 
 a {
@@ -12,15 +11,12 @@ a {
 }
 
 .container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+  display: flex;
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
   background-image: url(top.png);
-  background-size: cover;
+  background-size: contain;
 }
 
 .top-wrapper p {
