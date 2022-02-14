@@ -1,89 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
+  <meta name="description" content="ぱかぱか牧場のwebサイトです。">
+  <title>ぱかぱか牧場</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <!-- ヘッダー -->
+  <div class="header">
     <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
+      <div class="header-inner">
+        <div class="logo">
+          <a href="" ><img src="img/logo.png" alt="ロゴです"></a>
+        </div>
+        <div class="menu-hamburger">
+          <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+          </button>
+          <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+              <li><a class="drawer-brand" href="#">メニュー</a></li>
+              <li><a class="drawer-menu-item" href="">MENU</a></li>
+              <li><a class="drawer-menu-item" href="">MENU</a></li>
+              <li><a class="drawer-menu-item" href="">MENU/a></li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="menu">
+          <li><a href="">牧場について</a></li>
+          <li><a href="">アルパカについて</a></li>
+          <li><a href="">商品紹介</a></li>
+        </ul>
       </div>
     </div>
-  </header>
-  <div class="top-wrapper">
+  </div>
+
+<!-- カバー画像 -->
+  <div class="cover">
+      <div class="cover-text">穏やかな時間を過ごそう</div>
+  </div>
+
+<!-- アバウト -->
+  <div class="about">
     <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+      <div class="about-contents">
+
+        <div class="about-content">
+          <img src ="./img/about1.jpg">
+          <div class="about-content-text">
+            <h3>お得な３時間パック</h3>
+            <p class="about-link"><a href="">→ 詳しくはこちら</a></p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <img src ="./img/about2.jpg">
+          <div class="about-content-text">
+            <h3>お得な３時間パック</h3>
+            <p class="about-comment"></p>
+            <p class="about-link"><a href="">→ 詳しくはこちら</a></p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <img src ="./img/about3.jpg">
+          <div class="about-content-text">
+            <h3>お得な３時間パック</h3>
+            <p class="about-comment"></p>
+            <p class="about-link"><a href="">→ 詳しくはこちら</a></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="lesson-wrapper">
+
+  <!-- ニュース -->
+        <h2>NEWS</h2>
+
+        <div class="news">
+          <div class="container-n">
+            <ul class="news-list">
+              <li>
+                <div class="news-date">2022/02/14</div>
+                <div class="news-content">
+                    <div class="label label-event">おしらせ</div>
+                    <div class="news-detail"><a href="">営業時間について</a></div>
+                </div>
+              </li>
+              <li>
+                <div class="news-date">2022/02/10</div>
+                <div class="news-content">
+                  <div class="label label-news">おしらせ</div>
+                  <div class="news-detail"><a href="">営業時間について</a></div>
+              </div>
+              </li>
+              <li>
+                <div class="news-date">2021/10/01</div>
+                <div class="news-content">
+                  <div class="label label-news">おしらせ</div>
+                  <div class="news-detail"><a href="">営業時間について</a></div>
+              </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+<!-- フッター -->
+  <div class="footer">
     <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
+      <div class="sitemap">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">お問い合わせ</a></li>
+        </ul>        
       </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://user-images.githubusercontent.com/84057152/153745941-0d55c550-b36a-4804-b918-e2fac39e3f0b.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+
+      <div class="footer-info">
+        <div class="address">
+          <p class="address-name">ぱかぱか牧場</p>
+          <p>〒123-4567</p>
+          <p>東京都新宿区X-XXX-X</p>
+          <p>TEL:03-xxxx-xxxx</p>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://user-images.githubusercontent.com/84057152/153745941-0d55c550-b36a-4804-b918-e2fac39e3f0b.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://user-images.githubusercontent.com/84057152/153745941-0d55c550-b36a-4804-b918-e2fac39e3f0b.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://user-images.githubusercontent.com/84057152/153745941-0d55c550-b36a-4804-b918-e2fac39e3f0b.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
+        <div class="copyright">&copy;猫カフェふわり</div>
         </div>
       </div>
-      <div class="clear"></div>
     </div>
   </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <p>東京都新宿区X-XXX-X</p>
-    <p>03-xxxx-xxxx</p>
-    <div class="copyright">&copy;猫カフェふわり</div>
-  </footer>
-</body>
-</html>
