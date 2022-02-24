@@ -77,28 +77,14 @@ a:hover{
   position: relative;
 }
 
-.cover-text {
-  position: absolute;
-  top: 30%;
-  left: 10%;
-
-  font-size: 24px;
-  color: #fff;
-}
-
 /* アバウト */
-.about {
-  padding: 20px 0;
-}
 
 .about-contents {
   display: flex;
 }
 
-.about-content {
-  text-align: center;
-  width: 33%;
-  margin: 10px;
+.container {
+  display: flex;
 }
 
 .about-content img {
@@ -157,14 +143,6 @@ a:hover{
   width: 60px;
   text-align: center;
   font-size: 12px;
-}
-
-.label-event {
-  background: red;
-}
-
-.label-news {
-  background: blue;
 }
 
 .news-detail {
