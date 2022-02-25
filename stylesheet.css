@@ -4,6 +4,12 @@ body {
   font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  
   }
 
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+}
+
+
 h1 {
   text-align: center;
   color: #74b49b;
@@ -37,7 +43,7 @@ a:hover{
   margin: 0 auto;
 }
 
-/* ヘッダー */
+/* ヘッダー 
 .header {
   position: fixed;
   width: 100%;
@@ -52,7 +58,7 @@ a:hover{
   justify-content: space-between;
   align-items: center;
 }
-
+*/
 .menu {
   list-style-type: none;
   display: flex;
@@ -68,14 +74,14 @@ a:hover{
   padding: 0 10px;
 }
 
-/* カバー画像 */
+/* カバー画像 
 .cover {
   height: 600px;
   background-position: center center;
   background-size: cover;
 
   position: relative;
-}
+} */
 
 /* アバウト */
 
