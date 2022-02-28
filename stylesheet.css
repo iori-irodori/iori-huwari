@@ -14,17 +14,10 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
   background-image: url(https://user-images.githubusercontent.com/84057152/155937833-208fe505-4efb-4dc9-b2b4-0cacd127d116.png);
   background-size: cover;
   color: white;
   text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
 }
 
 .top-wrapper p {
@@ -79,7 +72,7 @@ header {
 }
 
 .header-right {
-  float: right;
+ display:flex;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -87,7 +80,6 @@ header {
   line-height: 65px;
   padding: 0 25px;
   color: white;
-  display: block;
 }
 
 .lesson-wrapper {
