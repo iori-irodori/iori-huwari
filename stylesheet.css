@@ -20,18 +20,14 @@ a {
 }
   
 .top-wrapper {
-  padding: 180px 0 100px 0;
   background-image: url(https://user-images.githubusercontent.com/84057152/155948441-1e80cf9d-2bc4-4ade-9b2c-8e3bf514fd54.png);
   background-size: cover;
   color: #f1e2be;
 }
   
-
 .top-wrapper p {
   opacity: 0.7;
 }
-
-
 
 .btn:hover {
   opacity: 1;
@@ -40,7 +36,6 @@ a {
 .fa {
   margin-right: 5px;
 }
-
 header {
   height: 65px;
   width: 100%;
@@ -54,7 +49,6 @@ header {
   width: 124px;
   margin-top: 20px;
 }
-
 .header-right {
  display:flex;
   background-color: #f1e2be;
@@ -96,7 +90,7 @@ header {
   color: #b3aeb5;
 }
 
-.container h3 {
+.container {
   font-weight: normal;
   color:#b3aeb5;
 }
@@ -112,13 +106,15 @@ header {
   display:flex;
   align-items: center;
 }
-
 .news-list li a {
   color: gray;
 }
-
 .news-list li a:hover {
   opacity: 0.8;
+}
+.news-detail {
+  padding-top: 10px;
+  padding-left: 15px;
 }
 .message-wrapper {
   padding-bottom: 80px;
