@@ -13,7 +13,7 @@ a {
   margin: 0 auto;
 }
 
-container {
+.container {
   width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
@@ -96,8 +96,9 @@ header {
   color: #b3aeb5;
 }
 
-.heading h3 {
+.container h3 {
   font-weight: normal;
+  color:#b3aeb5;
 }
 
 .message-wrapper {
