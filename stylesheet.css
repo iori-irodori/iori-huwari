@@ -24,7 +24,13 @@ a {
   background-size: cover;
   color: #f1e2be;
 }
+.cover {
+  height: 600px;
+  background-position: center center;
+  background-size: cover;
 
+  position: relative;
+}
 .btn:hover {
   opacity: 1;
 }
