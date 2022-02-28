@@ -39,19 +39,6 @@ a {
   margin: 10px 0;
 }
 
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
 .btn {
   padding: 8px 24px;
   color: white;
@@ -72,11 +59,11 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
-  /* positionプロパティをfixedに、topを0に指定してください */
+  /* */
   position:fixed;
   top:0;
   
-  /* z-indexを10に指定してください */
+  /* */
   z-index:10;
 }
 
@@ -107,7 +94,6 @@ header {
 }
 
 .lesson-wrapper {
-  height: 500px;
   padding-bottom: 80px;
   background-color: #f7f7f7;
   text-align: center;
