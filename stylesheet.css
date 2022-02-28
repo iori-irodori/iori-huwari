@@ -24,6 +24,7 @@ a {
   background-size: cover;
   color: #f1e2be;
 }
+
 .btn:hover {
   opacity: 1;
 }
@@ -50,10 +51,6 @@ header {
   padding: 0 25px;
   color: white;
 }
-.container p {
-  font-weight: normal;
-  color:#b3aeb5;
-} 
 .lesson-wrapper {
   padding-bottom: 80px;
   background-color: #f7f7f7;
@@ -64,11 +61,9 @@ header {
   float: left;
   width: 33%;
 }
-
 .lesson-icon {
   position: relative;
 }
-
 .lesson-icon p {
   position: absolute;
   top: 90px;
