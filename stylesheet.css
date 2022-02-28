@@ -18,17 +18,15 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
-  
+.container p {
+  font-weight: normal;
+  color:#b3aeb5;
+} 
 .top-wrapper {
   background-image: url(https://user-images.githubusercontent.com/84057152/155948441-1e80cf9d-2bc4-4ade-9b2c-8e3bf514fd54.png);
   background-size: cover;
   color: #f1e2be;
 }
-  
-.top-wrapper p {
-  opacity: 0.7;
-}
-
 .btn:hover {
   opacity: 1;
 }
@@ -36,6 +34,7 @@ a {
 .fa {
   margin-right: 5px;
 }
+
 header {
   height: 65px;
   width: 100%;
@@ -43,11 +42,6 @@ header {
   position:fixed;
   top:0;
   z-index:10;
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
 }
 .header-right {
  display:flex;
@@ -79,7 +73,6 @@ header {
   position: absolute;
   top: 90px;
   width: 100%;
-  color: white;
 }
 
 .txt-contents {
@@ -88,11 +81,6 @@ header {
   margin-top: 20px;
   font-size: 12px;
   color: #b3aeb5;
-}
-
-.container {
-  font-weight: normal;
-  color:#b3aeb5;
 }
 .news {
   padding-bottom: 20px;
