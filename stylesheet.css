@@ -7,12 +7,29 @@ a {
   text-decoration: none;
 }
 
-.container {
+.page-header {
   width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style:none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: #432
+}
+.main-nav a:hover {
+  color: #0bd
+}
+  
 .top-wrapper {
   background-image: url(https://user-images.githubusercontent.com/84057152/155937833-208fe505-4efb-4dc9-b2b4-0cacd127d116.png);
   background-size: cover;
