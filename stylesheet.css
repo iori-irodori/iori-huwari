@@ -13,22 +13,20 @@ a {
   margin: 0 auto;
 }
 
-.main-nav {
-  display: flex;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  margin-top: 34px;
-  list-style:none;
+container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
-.main-nav li {
-  margin-left: 36px;
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
-.main-nav a {
-  color: #432
-}
-.main-nav a:hover {
-  color: #0bd
-}
+
   
 .top-wrapper {
   background-image: url(https://user-images.githubusercontent.com/84057152/155937833-208fe505-4efb-4dc9-b2b4-0cacd127d116.png);
