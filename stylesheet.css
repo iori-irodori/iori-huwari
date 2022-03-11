@@ -82,7 +82,7 @@ header {
 }
 .header-right {
  display:flex;
-  background-color: #f1e2be;
+ background-color: #f1e2be;
 }
 
 .header-right a {
@@ -91,7 +91,7 @@ header {
   color: white;
 }
 .lesson-wrapper {
-  padding: 200px;
+  display:flex;
   background-color: #f7f7f7;
   text-align: center;
 }
