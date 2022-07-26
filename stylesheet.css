@@ -1,129 +1,198 @@
+@charset "UTF-8"
+html {
+    font-size: 100%;
+}
 body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  a {
+    text-decoration: none;
+  }
+  .main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+  }
+  .main-nav li {
+    margin-left: 36px;
+  }
+  .main-nav a {
+    color: #432;
+  }
+  .main-nav a:hover {
+    color: #0bd;
+  }
+  .wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: o 4%;
+  }
+  .page-title {
+    font-size: 5rem;
+    font-family: 'こころ明朝';
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .cover {
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+    display:flex;
+    position: relative;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color:#f1e2be;
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+  .header-right {
+   display:flex;
+   background-color: #f1e2be;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+  }
+  .lesson-wrapper {
+    display:flex;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .lesson {
+    float: left;
+    width: 33%;
+  }
+  .lesson-icon {
+    position: relative;
+  }
+  .lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b3aeb5;
+  }
+  .news {
+    padding-bottom: 20px;
+    display:flex;
+  }
+  .container-n {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .news-list li {
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+  }
+  .news-list li a {
+    color: gray;
+  }
+  .news-list li a:hover {
+    opacity: 0.8;
+  }
+  .news-detail {
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  .message-wrapper {
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+  }
+/*650px以下:/
+.header {
+  
 }
-
-a {
-  text-decoration: none;
+.menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #3584bb;
 }
-
-.page-header {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
 }
-
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+.menu-btn span:before {
+    bottom: 8px;
 }
-.cover {
-  height: 600px;
-  background-position: center center;
-  background-size: cover;
-  display:flex;
-  position: relative;
+.menu-btn span:after {
+    top: 8px;
 }
-
-.fa {
-  margin-right: 5px;
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
 }
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color:#f1e2be;
-  position:fixed;
-  top:0;
-  z-index:10;
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
 }
-.header-right {
- display:flex;
- background-color: #f1e2be;
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
 }
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-}
-.lesson-wrapper {
-  display:flex;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.lesson {
-  float: left;
-  width: 33%;
-}
-.lesson-icon {
-  position: relative;
-}
-.lesson-icon p {
-  position: absolute;
-  top: 90px;
-  width: 100%;
-}
-
-.txt-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 20px;
-  font-size: 12px;
-  color: #b3aeb5;
-}
-.news {
-  padding-bottom: 20px;
-  display:flex;
-}
-.container-n {
-  width: 60%;
-  margin: 0 auto;
-}
-.news-list li {
-  padding: 10px 0;
-  display:flex;
-  align-items: center;
-}
-.news-list li a {
-  color: gray;
-}
-.news-list li a:hover {
-  opacity: 0.8;
-}
-.news-detail {
-  padding-top: 10px;
-  padding-left: 15px;
-}
-.message-wrapper {
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
+#menu-btn-check {
+    display: none;
 }
