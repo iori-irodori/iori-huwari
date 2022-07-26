@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <header>
+    <header class="page-header wrapper">
         <div class="container">
-        <div class="header-right">
-         <a href="#" class="menu">MENU</a>
-         <a href="#" class="access">ACCESS</a>
-         <a href="#" class="news">NEWS</a>
-      </div>
+        <ul class="main-nav">
+         <li a href="#" class="menu">MENU</a></li>
+         <li a href="#" class="access">ACCESS</a></li>
+         <li a href="#" class="news">NEWS</a></li>
+        </ul>
       </div>
     </header>
     <div class="top-wrapper">
@@ -22,9 +22,11 @@
         </div>
       </div>
     </div>
-   <div class="cover"><img src="top.png">
+   <div class="cover"><img src="top.jpg">
+</div>
+    <div class="home-contents wrapper">
+      <h1 class="page-title">猫カフェふわり</h2>
     </div>
-    <div class="lesson-wrapper">
       <div class="container">
         <p>MENU</p>
         <div class="lessons">
@@ -72,12 +74,19 @@
           </div>
         </div>
     </div>
+<!--650px以下-->
+<header>
+  <div class="hamburger-menu">
+      <input type="checkbox" id="menu-btn-check">
+      <label for="menu-btn-check" class="menu-btn"><span></span></label>
+  </div>
+</header>
 
     <div class="message-wrapper">
       <div class="container">
         <div class="heading">
         </div>
-        <span class="btn message">MAP</span>
+        <span class="">MAP</span>
       </div>
     </div>
     <footer>
