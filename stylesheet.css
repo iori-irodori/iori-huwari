@@ -3,7 +3,7 @@ html {
     font-size: 100%;
 }
 body {
-    font-family: "Hiragino Kaku Gothic ProN";
+    font-family: "Kokoro";
   }
   a {
     text-decoration: none;
@@ -40,14 +40,17 @@ body {
     padding: 0 15px;
     margin: 0 auto;
   }
-  .cover {
-    height: 600px;
-    background-position: center center;
+ .big-bg{
     background-size: cover;
-    display:flex;
-    position: relative;
+    background-position: center top;
   }
-  
+  #home {
+    background-image: url(https://user-images.githubusercontent.com/84057152/180935095-763f8e40-6029-4684-aacd-66b8588dbba4.jpg);
+    min-height: 100vh;
+  }
+  #home .page-title{
+    text-transform: none;
+  }
   .fa {
     margin-right: 5px;
   }
