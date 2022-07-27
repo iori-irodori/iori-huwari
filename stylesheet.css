@@ -35,7 +35,7 @@ img {
     margin: 0 auto;
     padding: 0 4%;
   }
-header {
+  header {
     height: 65px;
     width: 100%;
     background-color:#f1e2be;
@@ -59,7 +59,7 @@ header {
   }
   /*背景画像*/
   .big-bg{
-    background-size: cover;
+    background-size: auto;
     background-position: center top;
   }
   #home {
@@ -69,8 +69,8 @@ header {
   #home .page-title{
     text-transform: none;
   }
-  .menu {
-    float: left;
+  .item {
+    float: right;
     width: 33%;
   }
   .menu-icon {
@@ -146,7 +146,7 @@ header {
   footer {
     padding-top: 30px;
   }
-/*600px以下:/
+/*600px以下*/
 @media(max-width:600px) {
 
 }
