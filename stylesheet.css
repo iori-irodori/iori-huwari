@@ -29,9 +29,11 @@ body {
     margin: 0 auto;
     padding: o 4%;
   }
-  .page-title {
+ page-title {
+    text-align: left;
+    margin-top: 10%;
     font-size: 5rem;
-    font-family: 'こころ明朝';
+    font-family: 'kokoro';
     text-transform: uppercase;
     font-weight: normal;
   }
