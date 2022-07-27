@@ -3,7 +3,7 @@ html {
     font-size: 100%;
 }
 body {
-    font-family: "Kokoro";
+    font-family: "kokoro";
   }
   a {
     text-decoration: none;
@@ -29,7 +29,7 @@ body {
     margin: 0 auto;
     padding: o 4%;
   }
- page-title {
+  .page-title {
     text-align: left;
     margin-top: 10%;
     font-size: 5rem;
@@ -37,12 +37,7 @@ body {
     text-transform: uppercase;
     font-weight: normal;
   }
-  .container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
- .big-bg{
+  .big-bg{
     background-size: cover;
     background-position: center top;
   }
@@ -53,10 +48,6 @@ body {
   #home .page-title{
     text-transform: none;
   }
-  .fa {
-    margin-right: 5px;
-  }
-  
   header {
     height: 65px;
     width: 100%;
@@ -75,20 +66,20 @@ body {
     padding: 0 25px;
     color: white;
   }
-  .lesson-wrapper {
+  .home-contents wrapper {
     display:flex;
     background-color: #f7f7f7;
     text-align: center;
   }
   
-  .lesson {
+  .menu {
     float: left;
     width: 33%;
   }
-  .lesson-icon {
+  .menu-icon {
     position: relative;
   }
-  .lesson-icon p {
+  .menu-icon p {
     position: absolute;
     top: 90px;
     width: 100%;
@@ -104,6 +95,10 @@ body {
   .news {
     padding-bottom: 20px;
     display:flex;
+  }
+  .news-title {
+    text-align: center;
+    border-bottom: 1px solid #999;
   }
   .container-n {
     width: 60%;
@@ -155,6 +150,3 @@ body {
     padding-top: 30px;
   }
 /*650px以下:/
-.header {
-  
-}
