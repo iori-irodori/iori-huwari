@@ -35,6 +35,19 @@ img {
     margin: 0 auto;
     padding: 0 4%;
   }
+header {
+    height: 65px;
+    width: 100%;
+    background-color:#f1e2be;
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+  .home-contents wrapper {
+    display:flex;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
   /*見出し*/
   .page-title {
     text-align: left;
