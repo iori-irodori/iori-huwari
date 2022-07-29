@@ -70,3 +70,17 @@ img {
   #home .page-title{
     text-transform: none;
   }
+#home {
+    background-image:;
+    min-height: 100vh;
+  }
+  #home .page-title{
+    text-transform: none;
+  }
+/*メニュー*/
+.item {
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+}
