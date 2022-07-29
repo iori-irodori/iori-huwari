@@ -5,6 +5,10 @@ html {
 body {
     font-family: "Yumincho,Yu mincho,Serif";
     color: #333;
+    background-image: url(images/main_visual.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
 a {
     text-decoration: none;
@@ -59,21 +63,6 @@ img {
     font-weight: normal;
   }
   /*背景画像*/
-  .big-bg{
-    background-size: auto;
-    background-position: center top;
-  }
-  #home {
-    background-image: url(https://user-images.githubusercontent.com/84057152/180935095-763f8e40-6029-4684-aacd-66b8588dbba4.jpg);
-    min-height: 100vh;
-  }
-  #home .page-title{
-    text-transform: none;
-  }
-#home {
-    background-image:;
-    min-height: 100vh;
-  }
   #home .page-title{
     text-transform: none;
   }
