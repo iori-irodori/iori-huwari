@@ -66,19 +66,35 @@ img {
 }
 .container {
   display: flex;
-  flex-direction: column;
   margin: 10px;
   padding: 10px;
 }
 /*モバイル*/
-@media (min-width:600px) {
+@media (max-width:600px) {
   .page-title {
     font-size: 62.5%;
+  }
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
   }
   .main-nav li {
     margin: 0 20px;
   }
   .home-content {
     margin-top: 20%;
+  }
+  .main-visual-img {
+    width: 100%;
+    height: auto;
+    background-image: url(images/main_visual.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
   }
 }
