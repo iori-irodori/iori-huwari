@@ -14,14 +14,18 @@ img {
     max-width: 100%;
   }
   .main-nav {
+    display: flex;
     font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
   }
   .main-nav li {
     margin-left: 36px;
   }
   .main-nav a {
-    background-color: #f1e2be;
     color: #432;
+    background-color: #f1e2be;
   }
   .main-nav a:hover {
     color: #333;
@@ -34,15 +38,14 @@ img {
     margin: 0 auto;
     padding: 0 4%;
   }
-  .home-content {
-    text-align: left;
-  }
+  /*見出し*/
   .page-title {
     font-size: 5rem;
     font-family: 'kokoro';
     text-transform: uppercase;
+    font-weight: normal;
   }
-  /*見出し*/
+
   .main-visual-img {
     height: 700px;
     background-image: url(images/main_visual.jpg);
