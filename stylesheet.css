@@ -46,8 +46,7 @@ img {
     z-index:10;
   }
   .home-content {
-    display:flex;
-    background-color: #f7f7f7;
+    font-size: 120%;
     text-align: left;
   }
   /*見出し*/
