@@ -5,10 +5,6 @@ html {
 body {
     font-family: "Yumincho,Yu mincho,Serif";
     color: #333;
-    background-image: url(images/main_visual.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
   }
 a {
     text-decoration: none;
