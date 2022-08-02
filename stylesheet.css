@@ -71,9 +71,6 @@ img {
 }
 /*モバイル*/
 @media (max-width:600px) {
-  .page-title {
-    font-size: 62.5%;
-  }
   .main-nav {
     font-size: 1rem;
     margin-top: 10px;
@@ -86,7 +83,7 @@ img {
   }
   .main-visual-img {
     width: 100%;
-    height: auto;
+    height: 500px;
     background-image: url(images/main_visual.jpg);
     background-repeat: no-repeat;
     background-position: center center;
