@@ -51,6 +51,13 @@ img {
     text-align: left;
   }
   /*見出し*/
+  .main-visual-img {
+    height: 700px;
+    background-image: url(images/main_visual.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
   .page-title {
     text-align: left;
     margin-top: 10%;
@@ -59,10 +66,7 @@ img {
     font-weight: normal;
   }
   /*背景画像*/
-  #home {
-    background-image: url(images/main_visual.jpg);
-    height: 400px;
-  }
+  
 /*メニュー*/
 .item {
   margin-bottom: 10px;
