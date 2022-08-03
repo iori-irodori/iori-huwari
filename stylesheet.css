@@ -14,6 +14,11 @@ a {
 img {
     max-width: 100%;
   }
+  @media screen and (min-width: 960px) {
+    img,.main-visual-img {
+      max-width: 960px;
+    }
+  }
   .main-nav {
     display: flex;
     font-size: 1.25rem;
@@ -53,7 +58,6 @@ img {
     font-weight: normal;
 }
   .main-visual-img {
-    height: 700px;
     background-image: url(images/main_visual.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -70,8 +74,8 @@ img {
   padding: 10px;
 }
 
-/*PC*/
-@media (min-width:960px) {
+/*タブレット用*/
+@media (min-width:768px) {
   .main-nav {
     font-size: 1rem;
     margin-top: 10px;
@@ -90,4 +94,8 @@ img {
   .title {
     position: relative;
   }
+}
+/*PC用*/
+@media (min-width:1024px){
+
 }
