@@ -69,11 +69,8 @@ img {
   
 /*メニュー*/
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   align-items: center;
-  margin-top: 100px;
-  padding: auto;
 }
 
 /*タブレット用*/
