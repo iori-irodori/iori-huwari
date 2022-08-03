@@ -60,7 +60,6 @@ img {
   .main-visual-img {
     background-image: url(images/main_visual.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
   }
   /*背景画像*/
