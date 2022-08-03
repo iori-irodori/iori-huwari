@@ -44,6 +44,11 @@ img {
     margin: 0 auto;
     padding: 0 4%;
   }
+  .main-visual-img {
+    background-image: url(images/main_visual.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   /*見出し*/
   .page-title {
     font-size: 2.5rem;
@@ -57,11 +62,7 @@ img {
     text-transform: uppercase;
     font-weight: normal;
 }
-  .main-visual-img {
-    background-image: url(images/main_visual.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+ 
   /*背景画像*/
   
 /*メニュー*/
