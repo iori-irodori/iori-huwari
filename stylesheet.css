@@ -95,13 +95,10 @@ img {
   margin-left: 120px;
 }
 
-.access {
-  text-align: center;
+.access,.location-map {
+  margin-left: 120px;
 }
-.location-map {
-  text-align: center;
-  position: relative;
-}
+
 /*タブレット用*/
 @media (min-width:768px) {
   .main-nav {
