@@ -3,7 +3,7 @@ html {
     font-size: 100%;
 }
 body {
-    font-family: "Yumincho","Yu mincho", Serif;
+    font-family: "Kokoro", Serif;
     color: #333;
     line-height: 1.7;
     background-color: #f6f8f9;
@@ -54,17 +54,17 @@ img {
   /*見出し*/
   .page-title {
     font-size: 2.5rem;
-    font-family: "kokoro",serif;
+    font-family: "Kokoro",serif;
     text-transform: uppercase;
     font-weight: normal;
   }
   .title {
     font-size: 1.5rem;
-    font-family: "kokoro",serif;
+    font-family: "Kokoro",serif;
     text-transform: uppercase;
     text-align: center;
     font-weight: normal;
-    border-bottom: 1px solid #999;
+    border-bottom: #999;
 }
 
   
