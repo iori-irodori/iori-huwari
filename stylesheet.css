@@ -83,6 +83,16 @@ img {
   color: #333;
   text-align: center;
 }
+.news {
+  position: relative;
+  padding-top: 4px;
+  margin-bottom: 15px;
+}
+.news-date {
+  border-radius: 30px;
+  background: #999;
+  position: absolute;
+}
 /*タブレット用*/
 @media (min-width:768px) {
   .main-nav {
