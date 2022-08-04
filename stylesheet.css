@@ -3,7 +3,7 @@ html {
     font-size: 100%;
 }
 body {
-    font-family: "Yumincho,Yu mincho,Serif";
+    font-family: "Yumincho","Yu mincho", Serif;
     color: #333;
     line-height: 1.7;
     background-color: #f6f8f9;
@@ -66,8 +66,7 @@ img {
     font-weight: normal;
     border-bottom: 1px solid #999;
 }
- 
-  /*背景画像*/
+
   
 /*メニュー*/
 .container {
@@ -83,18 +82,17 @@ img {
   color: #333;
   text-align: center;
 }
+/*お知らせ*/
 .news {
   position: relative;
   padding-top: 4px;
   margin-bottom: 15px;
 }
 .news-date {
-  border-radius: 30px;
-  background: #f1e2be;
   position: absolute;
 }
 .news-detail {
-  margin-left: 120px;
+  display: flex;
 }
 /*タブレット用*/
 @media (min-width:768px) {
