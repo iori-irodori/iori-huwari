@@ -99,6 +99,10 @@ img {
   margin-left: 120px;
 }
 
+footer {
+  text-align: center;
+}
+
 /*タブレット用*/
 @media (min-width:768px) {
   .main-nav {
