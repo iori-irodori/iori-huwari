@@ -98,15 +98,12 @@ img {
 .news-detail {
   margin-left: 120px;
 }
-.news-list {
+.news-list,.access,.location-map {
   width: fit-content;
   margin: auto;
   list-style-type: none;
 }
 
-.access,.location-map {
-  margin-left: 120px;
-}
 
 footer {
   text-align: center;
