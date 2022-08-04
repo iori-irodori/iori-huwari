@@ -64,6 +64,7 @@ img {
     text-transform: uppercase;
     text-align: center;
     font-weight: normal;
+    border-bottom: 1px solid #999;
 }
  
   /*背景画像*/
@@ -72,7 +73,6 @@ img {
 .container {
   display: flex;
   flex-direction: column;
-  align-content: center;
   height: 700px;
 }
 .item {
