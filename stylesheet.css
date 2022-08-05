@@ -72,7 +72,7 @@ img {
     text-transform: uppercase;
     text-align: center;
     font-weight: normal;
-    border-bottom: #999;
+    border-bottom: 1px solid #999;
 }
   
 /*メニュー*/
