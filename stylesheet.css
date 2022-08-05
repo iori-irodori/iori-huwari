@@ -116,6 +116,12 @@ img {
 .icon {
   margin: auto;
 }
+
+.sns img {
+  display: flex;
+  width: 15px;
+  height: 15px;
+}
 footer {
   text-align: center;
 }
