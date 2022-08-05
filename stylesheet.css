@@ -111,6 +111,9 @@ img {
   margin: auto;
   list-style-type: none;
 }
+.news-detail {
+  margin-left: 120px;
+}
 
 .icon {
   margin: auto;
