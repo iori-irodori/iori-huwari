@@ -15,7 +15,8 @@ img {
     max-width: 100%;
   }
   .logo img{
-    display: block;
+    width: 300px;
+    height: auto;
   }
   .logo{
     margin-left: 0; 
@@ -99,7 +100,10 @@ img {
   padding-top: 4px;
   margin-bottom: 15px;
 }
-.news-date 
+.news-date {
+  list-style: none;
+  margin-left: 0px;
+}
 .news-list,.access,.location-map {
   width: fit-content;
   margin: auto;
