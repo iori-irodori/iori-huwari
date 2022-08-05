@@ -95,7 +95,8 @@ img {
   text-align: center;
 }
 /*お知らせ*/
-.news {
+.news-list {
+  position: relative;
   margin-left: 120px;
   padding-top: 4px;
   margin-bottom: 15px;
