@@ -61,7 +61,7 @@ img {
   /*見出し*/
   .page-title {
     font-size: 2.5rem;
-    font-family: "Kokoro",serif;
+    font-family: "Yu Gothic","YuGothic",serif;
     text-transform: uppercase;
     font-weight: normal;
   }
@@ -95,14 +95,11 @@ img {
 }
 /*お知らせ*/
 .news {
-  font-family: "Yumincho";
-  position: relative;
+  margin-left: 120px;
   padding-top: 4px;
   margin-bottom: 15px;
 }
-.news-date {
-  position: absolute;
-}
+.news-date 
 .news-list,.access,.location-map {
   width: fit-content;
   margin: auto;
