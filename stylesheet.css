@@ -116,11 +116,11 @@ img {
 .icon {
   margin: auto;
 }
-
-.sns img {
+.sns li {
+  list-style: none;
+}
+.sns ul {
   display: flex;
-  width: 15px;
-  height: 15px;
 }
 footer {
   text-align: center;
