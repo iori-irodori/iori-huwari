@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    margin: 0 0 0 0 ;
+    background-color: #fff;
+    font-family: 'Meiryo';
+}
+
+img {
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.logo {
+    width: 120px;
+    margin-top: 10px;
+
+}
+.main-nav {
+    display: flex;
+    font-size: 0.9rem;
+    list-style: none;
+    line-height: 30px;
+    margin-right: 230px;
+}
+.main-nav li {
+    margin-left: 30px;
+    color: #24292E;
+}
+.main-nav li a {
+    text-decoration: none;
+}
+.main-nav li a:link,a:visited {
+    color: #24292E;
+}
+.main-nav li a:hover {
+    color: #b6b6b6;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+/* ヘッダー終わり　*/
+.mainvisual img{
+    width: 100%;
+    max-width: 1280px;
+    min-width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+/* ここからセクション　*/
+section{
+    text-align: center;
+}
+.a h2 {
+    display: inline-block;
+    /* text-align: center; */
+    /* margin: auto; */
+    border-bottom: solid 2px #b6b6b6;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 48px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+#about {
+    display: flex;
+    text-align: left;
+    align-items: center; 
+   /* flex-direction: column; */
+   justify-content: center;
+   margin-bottom: 100px;
+
+}
+#about h4 {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#about p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+.photo {
+    width: 100px;
+    height: 100px;
+}
+#about .text {
+    margin-left: 30px;
+}
+/* ここからbicycle　*/
+.b h2 {
+    display: inline-block;
+    /* text-align: center; */
+    /* margin: auto; */
+    border-bottom: solid 2px #b6b6b6;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 48px;
+    margin-bottom: 70px;
+}
+#Product {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    margin: 8px;
+}
+
+.item h3{
+    margin: 2px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.item p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.item img{
+    width: 263px;
+    height: 174px;
+}
+
+footer {
+    position: sticky;
+    font-size: 0.7rem;
+    color: #383E45;
+    top: 100vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+/* モバイル*/
+@media screen and (max-width:600px) {
+    body {
+        margin: 0 0 0 0 ;
+        width: 100%;
+
+        background-color: #fff;
+        font-family: 'Meiryo';
+    }
+    .wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .logo {
+        width: 120px;
+        margin-top: 10px;
+    }
+    .main-nav {
+        margin-right: 50px;
+    }
+    .main-nav li {
+        margin-left: 30px;
+        color: #24292E;
+    }
+    .page-header {
+        width: 100%;
+    }
+    /* ヘッダー終わり　*/
+    .mainvisual img {
+        min-width: 0;
+    }
+    #about {
+        flex-direction: column;
+        width: 100%;
+    }
+    #about h2 {
+        margin-bottom: 60px;
+    }
+    #about h4 {
+        margin-top: 10px;
+    }
+    #about p {
+        max-width: 600px;
+    }
+
+    #Product {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+    #Product h2 {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+}
