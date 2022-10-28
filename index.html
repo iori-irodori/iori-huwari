@@ -1,204 +1,110 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta property='og:type' content='website'>
-  <meta property='og:title' content='ポートフォリオ'>
-  <meta property='og:url' content='URLが入る'>
-  <meta property='og:description' content='ポートフォリオサイトです。'>
-  <meta property="og:image" content="img/ogp.png">
-  <meta name="description" content="ポートフォリオサイトです" />
-  <title>ポートフォリオ</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
-  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-  <link rel="shortcut icon" href="img/favicon.ico" />
-  <link rel=”canonical” href=”URLが入る” />
+  <meta name="description" content="渋谷駅3分の猫カフェ">
+  <title>猫カフェふわり</title>
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+  
+<!--<link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-2-1/css/5-2-1.css">-->
 </head>
-
+<!--600px以下-->
 <body>
-  <div class="wrapper">
-
-    <!-- header -->
-    <header class="header ">
-      <div class="container">
-        <h1 class="header-logo">
-          <a href=".">H.Uemura</a>
-        </h1>
-        <nav class="gnav">
-          <ul class="gnav-list">
-            <li class="gnav-item"><a href="#Gallery">GALLERY</a></li>
-          <!--  <li class="gnav-item"><a href="#about">ABOUT</a>
-            </li>
-            <li class="gnav-item"><a href="#skill">SKILL</a></li>
-            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
-          -->
-          </ul>
-        </nav>
-      </div>
+    <!---
+    <header class="page-header wrapper">
+      <nav>
+        <ul class="main-nav">
+          <li><a href="#" class="menu"></a>メニュー</li>
+          <li><a href="#" class="news"></a>お知らせ</li>
+          <li><a href="#" class="access"></a>アクセス</li>
+        </ul>
+      </nav>
     </header>
-    <!-- /header -->
-
-    <main class="content">
-
-      <!-- mv -->
-      <div class="mv">
-        <div class="mv-container">
-          <p class="mv-title">PORTFOLIO</p>
-
-          <p class="mv-text">
-          </p>
-        </div>
+  -->
+  <div class="openbtn"><span></span><span></span><span></span></div>
+  <nav id="g-nav">
+    <ul>
+    <li><a href="#">Top</a></li>  
+    <li><a href="#">メニュー</a></li>  
+    <li><a href="#">お知らせ</a></li>  
+    <li><a href="#">アクセス</a></li>  
+    </ul>
+  </nav>
+     <!-- main-visual -->
+     <div class="main-visual">
+      <div class="main-visual-img">
+        <img src="images/logo.svg" class="logo">
       </div>
-      <!-- /mv -->
-
-      <!-- works -->
-      <section class="works section" id="works">
-        <div class="container">
-          <h2 class="title">GALLERY</h2>
-          <div class="works-list">
-            <a class="works-item" href="huwari.cafe/index.html">
-              <div class="works-img"><img src="img/cat.jpg" alt="" /></div>
-              <p class="works-name">【制作中】猫カフェのサイト</p>
-              <p class="works-info">デザイン・コーディング</p>
-            </a>
-            <a class="works-item" href="Aromalife/index.html">
-              <div class="works-img"><img src="./img/aroma.jpg" alt="" /></div>
-              <p class="works-name">アロマ製品の企業サイト（架空）</p>
-              <p class="works-info">サイト設定・コーディング（レスポンシブ）</p>
-            </a>
-            
-              <a class="works-item" href="https://uminoue-cafe.com/">
-              <div class="works-img"><img src="./img/cafe.jpg" alt="" /></div>
-              <p class="works-name">カフェサイト（架空）</p>
-              <p class="works-info">デザイン・ワードプレス</p>
-            </a>
-          <!--
-            <a class="works-item" href="works-template.html">
-              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
-              <p class="works-name">作品名が入る</p>
-              <p class="works-info">Banner Design</p>
-            </a>
-            <a class="works-item" href="works-template.html">
-              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
-              <p class="works-name">作品名が入る</p>
-              <p class="works-info">Banner Design</p>
-            </a>
-          -->
-          </div>
-        </div>
-      </section>
-      <!-- /works -->
-
-      <!-- skill 
-      <section class="skill section" id="skill">
-        <div class="container">
-          <h2 class="title">SKILL</h2>
-          <div class="skill-list">
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">HTML5/CSS3</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">WordPress</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">JavaScript</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">Photoshop</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">Illustrator</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">XD</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    -->
-
-      <!-- about -->
-      <section class="about section" id="about">
-        <div class="container">
-          <h2 class="title"></h2>
-          <div class="profile">
-            <p class="profile-img">
-              <img src="" alt="">
-            </p>
-            <div class="profile-body">
-              <p>
-                
-              </p>
-              <p>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /about -->
-
-      <!-- contact
-      <section class="contact section" id="contact">
-        <div class="container">
-          <h2 class="title">CONTACT</h2>
-          <p class="lead">
-            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。
-          </p>
-          <div class="contact-list">
-            <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
-            <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
-            <span class="contact-item">xxxxxx@gmail.com</span>
-          </div>
-        </div>
-      </section>
+    </div>
+    <!-- /main-visual -->
+  <main>
+    <div>
       
-      <div class="page-top" id="js-page-top">
-        <span class="material-icons-outlined">expand_less</span>
+    </div>
+  </main>
+  <section>
+    <h2 class="title">メニュー</h2>
+    <div class="container">
+      <div class="item">
+        <img src="images/hidarino_neko.png" alt="">
+        <p>おすすめ！お得な３時間パック</p>
       </div>
-      -->
-    </main>
-
-    <!-- footer -->
-    <footer class="footer">
-      <div class="copyright">&copy;H.Uemura</div>
-    </footer>
-    <!-- /footer -->
-
+      <div class="item">
+        <img src="images/nikukyu.png" alt="">
+        <p>カフェ利用も可。Wi-Fi、電源完備。</p>
+      </div>
+      <div class="item">
+        <img src="images/hachikou.png" alt="">
+        <p>渋谷駅ハチ公口徒歩３分。</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="news">
+      <h2 class="title">お知らせ</h2>
+      <ul class="news-list">
+        <li>
+          <div class="news-date">2022/01/10</div>
+          <div class="news-content">
+            <div class="news-detail"><a href="#"> 営業時間変更のお知らせ</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="news-date">2021/12/22</div>
+          <div class="news-content">
+            <div class="news-detail"><a href="#"> 年末年始の営業について</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="access">
+      <h2 class="title">アクセス</h2>
+      <p>〒150-8010 東京都渋谷区宇田川町X-X<br>
+        03-3463-XXXX</p>
+    </div>
+    <div class="location-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.5407816182174!2d139.69554685078728!3d35.66368418010118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d6f9cdd6f37%3A0x58b3c3bddcdaf367!2z5riL6LC35Yy65b255omA!5e0!3m2!1sja!2sjp!4v1658818558827!5m2!1sja!2sjp"
+        style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   </div>
+  </section>
+  <footer>
+    <div class="wrapper">
+      <p>&copy;2022 猫カフェふわり</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+  <script src="style.js"></script>
 </body>
+
 </html>
