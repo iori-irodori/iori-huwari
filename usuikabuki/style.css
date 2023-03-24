@@ -89,17 +89,20 @@ img {
     font-size: 0.9rem;
 }
 
-ここから次回公演
+/*ここから次回公演*/
 .next p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    padding-left: 200px;
+    text-align: left;
+    width: 500px;
 }
-/*
-.c h2,h3{
-    text-align: center;
+
+.c h4 {
+    padding-left: 200px;
+}
+.text p{
+    padding-left: 200px;
+    text-align:left;
+    width: 500px;
 }
 
 #photo{
@@ -108,7 +111,6 @@ img {
     width: 760px;
     height: 400px;
 }
-*/
 
 footer {
     position: sticky;
