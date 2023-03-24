@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;;
+}
+body {
+    margin: 0 0 0 0 ;
+    font-family: 'Yu mincho';
+    background-color: #F0F0F0;
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.logo {
+    width: 120px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.main-nav {
+    display: flex;
+    font-size: 0.9rem;
+    font-family: "Yu mincho";
+    list-style: none;
+    line-height: 30px;
+    margin-right: 230px;
+}
+.main-nav li {
+    margin-left: 30px;
+    color: #24292E;
+}
+.main-nav li a {
+    text-decoration: none;
+    color: #24292E;
+}
+
+.main-nav li a:link,a:visited {
+    color: #24292E;
+}
+.main-nav li a:hover {
+    color: #b6b6b6;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #fff;
+}
+.mainvisual img{
+    width: 100%;
+    max-width: 1280px;
+    min-width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* Layout Properties */
+.section-title{
+    top: 800px;
+    padding-left: 200px;
+    width: 140px;
+    height: 54px;
+    /* UI Properties */
+    letter-spacing: 10.8px;
+    color: #000000;
+    opacity: 1;
+}
+.hurigana{
+    padding-left: 200px;
+    width: 140px;
+}
+
+#news {
+    display: flex;
+    justify-content: center;
+}
+.kiji {
+    margin: 5px;
+    font-family: "Yu mincho";
+}
+
+.kiji p {
+    margin-top: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 0.9rem;
+}
+
+ここから次回公演
+.next p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/*
+.c h2,h3{
+    text-align: center;
+}
+
+#photo{
+    top: 1170px;
+    padding-left: 300px;
+    width: 760px;
+    height: 400px;
+}
+*/
+
+footer {
+    position: sticky;
+    font-size: 0.7rem;
+    color: #383E45;
+    top: 100vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+
+}/* モバイル*/
+@media screen and (max-width:600px) {
+    body {
+        margin: 0 0 0 0 ;
+        width: 100%;
+    }
+    .wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .logo {
+        width: 120px;
+        margin-top: 10px;
+    }
+    .main-nav {
+        margin-right: 50px;
+    }
+    .main-nav li {
+        margin-left: 30px;
+        color: #24292E;
+    }
+    .page-header {
+        width: 100%;
+    }
+    /* ヘッダー終わり　*/
+    .mainvisual img {
+        min-width: 0;
+    }
+    #news {
+        flex-direction: column;
+        width: 100%;
+    }
+    #news h2 {
+        margin-bottom: 60px;
+    }
+    #news h4 {
+        margin-top: 10px;
+    }
+    #news p {
+        max-width: 600px;
+    }
+
+    #news {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+    #news {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+}
